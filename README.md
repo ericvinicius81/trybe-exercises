@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Eric Vinícius](https://www.linkedin.com/in/ericvcampos/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Eric Vinícius](https://www.linkedin.com/in/ericvcampos/)_ estudante na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
@@ -15,13 +15,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 2: Git & GitHub
 
-- [ ] 2-1: _O que Ã© e para que serve?_
+- [ ] 2-1: _O que são e para que serve?_
 - [ ] 2-2: _Entendendo os comandos_
 - [ ] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS
 
-- [ ] 3-1: _HTML & CSS - Estruturas de pÃ¡gina_
+- [ ] 3-1: _HTML & CSS - Estruturas de página_
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML Semântico_
@@ -146,7 +146,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma especÃ­fica_
+- [ ] 20-3: _Filtrando dados de forma específica_
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
@@ -198,7 +198,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 28: NodeJS
 
-- [ ] 28-1: _Arquitetura de Software - Camada de Servisão_
+- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
 - [ ] 28-2: _Arquitetura web - Rest e Restful_
 - [ ] 28-3: _[Projeto - Store Manager]()_
 
@@ -242,15 +242,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 35-1: _Arquitetura de Computadores_
 - [ ] 35-2: _Arquitetura de redes_
-- [ ] 35-3: _Redes de computadores, ferramentas e seguranÃ§a_
+- [ ] 35-3: _Redes de computadores, ferramentas e segurança_
 - [ ] 35-4: _[Projeto - Explorando os protocolos]()_
 
 ##### Bloco 36: Python
 
 - [ ] 35-1: _Aprendendo Python_
 - [ ] 35-2: _Testes e Exceções_
-- [ ] 35-3: _Entrada e SaÃ­da de dados_
-- [ ] 36-4: _Entrada e SaÃ­da de dados_
+- [ ] 35-3: _Entrada e Saída de dados_
+- [ ] 36-4: _Entrada e Saída de dados_
 - [ ] 35-5: _[Projeto - Tech news]()_
 
 # [...]
