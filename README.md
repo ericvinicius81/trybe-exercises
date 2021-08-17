@@ -82,7 +82,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 10-1: _Primeiros passos no Jest_
 - [ ] 10-2: _Jest - Testes Assíncronos_
 - [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest Assí­ncrono e Mocking]()_
+- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
@@ -160,7 +160,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 22: Bancos de dados relacionais
 
 - [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _NormalizaÃ§Ã£o, Formas Normais e Dumps_
+- [ ] 22-2: _Normalização, Formas Normais e Dumps_
 - [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [ ] 22-3: _[Projeto - One For All]()_
 
@@ -238,7 +238,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 35: Introdução - Ciência da ComputaÃ§Ã£o
+##### Bloco 35: Introdução - Ciência da Computação
 
 - [ ] 35-1: _Arquitetura de Computadores_
 - [ ] 35-2: _Arquitetura de redes_
