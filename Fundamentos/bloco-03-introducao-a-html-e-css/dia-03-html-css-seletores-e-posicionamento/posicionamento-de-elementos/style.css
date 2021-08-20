@@ -20,13 +20,13 @@
     font-size: 25px;
     position: absolute;
     z-index: 1;
-    left: 260px;
     top: 230px;
+    left: 260px;    
   }
   
   .bowser {
     width: 200px;
     position: absolute;
-    left: 500px;
     top: 350px;
+    left: 500px;    
   }
