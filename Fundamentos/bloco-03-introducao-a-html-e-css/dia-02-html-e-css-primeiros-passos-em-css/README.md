@@ -1,6 +1,10 @@
 ### Primeiros passos em CSS
 
-Os objetivos dos exercícios do dia é aprender na prática como utilizar CSS, criarei regras de estilo para tags HTML utilizando o CSS; utilizarei os seletores de tag , id e class para aplicar regras de CSS; mudarei características da fonte e das cores de páginas web e utilizarei CSS inline e externo.
+Os objetivos dos exercícios do dia é aprender na prática como utilizar CSS.
+
+Cria regras de estilo para tags HTML utilizando o CSS;\
+Utilizar os seletores de tag , id e class para aplicar regras de CSS;\
+Alterar características da fonte e das cores de páginas web e utilizarei CSS inline e externo.
 
 #### Exercícios
 
