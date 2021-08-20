@@ -11,14 +11,14 @@ Utilizar CSS inline e externo .
 
 #### Exercícios
 
-Introdução ao CSS
+## Introdução ao CSS
 
 1 - Modifique o tamanho do h1 para 65 pixels\
 2 - Modifique a cor do texto do h1 para laranja\
 3 - Modifique a cor de fundo da lista não ordenada\
 4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo
 
-Propriedades de texto no CSS
+## Propriedades de texto no CSS
 
 1 - Modifique o família do h1 para sans-serif\
 2 - Deixe o parágrafo com o font-weight 600\
@@ -27,6 +27,6 @@ Propriedades de texto no CSS
 5 - Explore as propriedades font-style, line-height, text-align e text-decoration\
 6 - Troque a cor de fundo de cada item da lista para a cor correspondente ao texto
 
-CSS inline e externo
+## CSS inline e externo
 
 1 - Coloque todo o CSS criado até agora nos exercícios anteriores em um arquivo externo.
