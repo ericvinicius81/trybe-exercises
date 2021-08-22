@@ -1,4 +1,4 @@
-### HTML & CSS - Seletores e posicionamento
+### HTML & CSS - Seletores e posicionamento 
 
 O objetivo dos exercícios do dia é aprender na prática como alterar o layout da página utilizando o CSS , assim como utilizar regras de seleção bem definidas para escolher exatamente o tipo de elemento que você quer estilizar.
 
