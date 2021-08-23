@@ -1,0 +1,36 @@
+ol {
+    background-color: yellow;
+}
+
+li {
+    font-size: 20px;
+}
+
+.litalic {
+    font-weight: bold;
+}
+
+ol li:nth-child(even) {
+    background-color: green;
+}
+
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+.head {
+    background-color: red;
+}
+
+.hitalic {
+    font-size: 40px;
+    border: solid black 1px;
+}
+
+.lang {
+    background-color: blue;
+}
+
+.java {
+    background-color: pink;
+}
