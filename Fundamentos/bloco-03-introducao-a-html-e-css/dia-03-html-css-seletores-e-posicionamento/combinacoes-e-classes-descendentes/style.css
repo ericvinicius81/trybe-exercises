@@ -1,36 +1,61 @@
-ol {
+.back {
     background-color: yellow;
 }
 
-li {
-    font-size: 20px;
+.par li:nth-child(even) {
+    color: green;
 }
 
-.litalic {
-    font-weight: bold;
-}
-
-ol li:nth-child(even) {
-    background-color: green;
-}
-
-ol li:nth-child(odd) {
+.impar li:nth-child(odd) {
     text-transform: uppercase;
 }
 
 .head {
-    background-color: red;
+    color: red;
 }
 
-.hitalic {
+.italic {
     font-size: 40px;
     border: solid black 1px;
 }
 
-.lang {
-    background-color: blue;
+.size {
+    font-size: 20px;
+}
+
+.weight {
+    font-weight: bold;
+}
+
+.type li:nth-child(-n+3) {
+    color: blue;
 }
 
 .java {
     background-color: pink;
+}
+
+#stack:hover {
+    font-weight: bold;
+    color: orange;
+}
+
+#w3:hover {
+    font-weight: bold;
+    color: green;
+}
+
+#mdn:hover {
+    font-weight: bold;
+    color: black;
+}
+
+#devdocs:hover {
+    font-weight: bold;
+    color: yellow;
+}
+
+#trybe:hover {
+    font-weight: bold;
+    color: green;
 }
