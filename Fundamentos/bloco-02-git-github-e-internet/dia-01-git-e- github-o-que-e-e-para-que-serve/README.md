@@ -1,18 +1,18 @@
 ### Git & GitHub - O que é e para que serve
 
-Parte 1 - Instalação e configuração
+#### Parte 1 - Instalação e configuração
 
 Vamos começar realizando a instalação e configuração do Git
 
-Parte 2 - Criar conta no GitHub
+#### Parte 2 - Criar conta no GitHub
 
 Crie sua conta no GitHub usando seu e-mail pessoal
 
-Parte 3 - Adicionando uma chave SSH na sua conta do GitHub
+#### Parte 3 - Adicionando uma chave SSH na sua conta do GitHub
 
 Neste passo, vamos aprender como adicionar uma chave SSH à sua conta do GitHub
 
-Parte 4 - O seu repositório no GitHub
+#### Parte 4 - O seu repositório no GitHub
 
 Para podermos simular um exercício feito, você criará um arquivo .txt com um nome de sua escolha (Exemplo: trybe-skills.txt ) e utilizará o conteúdo abaixo.
 
