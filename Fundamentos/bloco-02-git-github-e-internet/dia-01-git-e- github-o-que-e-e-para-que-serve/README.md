@@ -1,5 +1,6 @@
 ### Git & GitHub - O que é e para que serve
 
+
 Parte 1 - Instalação e configuração
 
 Vamos começar realizando a instalação e configuração do Git
