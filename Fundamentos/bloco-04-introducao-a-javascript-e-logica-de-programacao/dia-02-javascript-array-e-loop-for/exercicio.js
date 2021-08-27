@@ -1,7 +1,6 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // Ex. 1
-
 console.log('Exercício 1', '\n');
 
 for (let index = 0; index < numbers.length; index +=1) {
@@ -9,7 +8,6 @@ for (let index = 0; index < numbers.length; index +=1) {
 } console.log('\n');
 
 // Ex. 2
-
 console.log('Exercício 2', '\n');
 
 let resultado = 0
@@ -21,14 +19,12 @@ for (let index = 0; index < numbers.length; index += 1) {
 console.log(resultado, '\n');
 
 // Ex. 3
-
 console.log('Exercício 3', '\n');
 
 let media = (resultado/numbers.length)
 console.log(media, '\n')
 
 // Ex. 4
-
 console.log('Exercício 4', '\n');
 
 if (media > 20) {
@@ -39,7 +35,6 @@ else {
 } console.log('\n')
 
 // Ex. 5
-
 console.log('Exercício 5', '\n');
 
 let maiorValor = numbers[0];
@@ -52,7 +47,6 @@ for (let index = 0; index < numbers.length; index += 1) {
 console.log(maiorValor, '\n');
 
 // Ex. 6
-
 console.log('Exercício 6', '\n');
 
 let valorImpar = 0;
@@ -71,5 +65,4 @@ else {
 } console.log('\n');
 
 // Ex. 7
-
 console.log('Exercício 7', '\n');
