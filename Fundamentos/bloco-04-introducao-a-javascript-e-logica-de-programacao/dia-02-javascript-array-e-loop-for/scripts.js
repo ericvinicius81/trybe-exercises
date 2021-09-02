@@ -31,7 +31,7 @@ if (media > 20) {
   console.log('valor maior que 20');
 }
 else {
-  console.log('valor menor ou igual a que 20');
+  console.log('valor menor ou igual a 20');
 } console.log('\n')
 
 // Ex. 5
@@ -66,3 +66,29 @@ else {
 
 // Ex. 7
 console.log('Exercício 7', '\n');
+
+let menorValor = numbers[0];
+
+for (let index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] < menorValor) {
+    menorValor = numbers[index];
+  }
+}
+console.log(menorValor, '\n');
+
+// Ex. 8
+console.log('Exercício 8', '\n');
+
+let array1a25 = [];
+
+for (let index = 1; index <= 25; index += 1) {
+  array1a25.push(index);
+}
+console.log(array1a25, '\n');
+
+// Ex. 9
+console.log('Exercício 9', '\n');
+
+for (let index = 0; index < array1a25.length; index += 1) {
+  console.log(array1a25[index] / 2);
+}
