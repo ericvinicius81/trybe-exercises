@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<f>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header class="form-header">
+    <h1>Formulário</h1>
+  </header>
+  <main>
+    <form action="" method="GET" id="cv-form">
+      <div class="form-row">
+        <fieldset>
+          <div class="line-content">
+            <label for="nome">Nome </label>
+            <input type="text" name="nome" id="nome" maxlength="40" required>
+          </div>
+          <div class="line-content">
+            <label for="email">Endereço de e-mail </label>
+            <input class="email-input" type="email" name="email" id="email" maxlength="50" required>
+          </div>
+          <div class="line-content">
+            <label for="cpf">CPF </label>
+            <input type="text" name="cpf" id="cpf" maxlength="11" required>
+          </div>
+          <div class="line-content">
+            <label for="end">Endereço </label>
+            <input type="text" name="end" id="end" maxlength="200" required>
+          </div>
+          <div class="line-content">
+            <label for="cidade">Cidade </label>
+            <input type="text" name="cidade" id="cidade" maxlength="200" required>
+          </div>
+          <div class="line-content">
+            <label for="estado">Estado </label>
+            <select name="estado" id="estado"  required>
+              <option disabled selected value>Selecione seu estado</option>
+            </select>
+          </div>
+          <div class="line-content">
+            <label for="tipo">Tipo de imóvel </label>
+            <label for="casa">
+              <input type="radio" name="tipo" id="casa" value="house" required>
+              <span>Casa</span>
+            </label>
+            <label for="apt">
+              <input type="radio" name="tipo" id="apt" value="apartment" required>
+              <span>Apartamento</span>
+            </label>  
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="line-content">
+            <label for="resumo">Resumo do currículo </label>
+            <textarea id="resumo" name="resumo" maxlength="1000" cols="100" rows="20" required></textarea>
+          </div>
+          <div class="line-content">
+            <label for="cargo">Cargo </label>
+            <input type="text" name="cargo" id="cargo" maxlength="40" required>
+          </div>
+          <div class="line-content">
+            <label for="desc">Descrição do cargo </label>
+            <input type="text" id="desc" maxlength="500" name="desc" required>
+          </div>
+          <div class="line-content">
+            <label for="data">Data de início </label>
+            <input type="text" class="input-data" name="data" value="" required>
+          </div>
+        </fieldset>
+        <button class="submit-button" type="submit">Enviar</button>
+        <button class="clear-button" type="button">Limpar</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
