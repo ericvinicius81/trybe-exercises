@@ -1,0 +1,58 @@
+body {
+  font-size: large;
+  margin: 30px 30px;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+    padding: 30px;
+}
+
+figure {
+    margin: 0;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: aqua;
+    font-size: x-large;
+    padding: 50px;
+  }
+
+  h1 {
+    font-size: xxx-large;
+  }
+
+  figure {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    background-color: blueviolet;
+    font-size: xx-large;
+    margin: 25px 10%;
+    max-width: 1130px;
+  }
+
+  h1 {
+    font-size: xxx-large;
+  }
+
+  figure {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+  }
+}
