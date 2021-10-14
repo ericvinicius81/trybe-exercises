@@ -13,3 +13,16 @@ const newEmployees = () => {
 };
 
 console.log(newEmployees(newData));
+
+//
+
+const numbers = (number, numberAleatory) => number === numberAleatory;
+
+const result = (number, message) => {
+  const numberAleatory = Math.floor((Math.random() * 5) + 1);
+  if (number === numberAleatory) {
+      return 'Parabéns você ganhou';
+    } else {
+      return 'Tente novamente';
+  };
+};
