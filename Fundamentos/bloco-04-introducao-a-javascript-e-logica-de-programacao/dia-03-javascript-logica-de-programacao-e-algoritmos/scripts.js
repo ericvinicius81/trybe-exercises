@@ -1,27 +1,46 @@
-// Ex. 1
+// Exercício 1
 
-let n = 3;
-let simbolo = '*';
-let linha = '';
+let n = 5;
+let symbol = '*';
+let row = '';
 
-for (let index = 0; index < n; index += 1) {
-  linha += simbolo;
+for (let index = 0; index <= n; index +=1) {
+  row += symbol;
 };
 
-for (let index = 0; index < n; index += 1) {
-  console.log(linha);
+for (let index = 0; index <= n; index += 1) {
+  console.log(row);
 };
 
-// Ex. 2
+
+// Exercício 2
 
 let base = 5;
-let simbolo = '*';
-let linha = '';
+let symbol = '*';
+let row = '';
 
 for (let index = 0; index <= base; index += 1) {
-  console.log(linha);
-  linha += simbolo;
+  row += symbol;
+  console.log(row);
 };
 
-//Ex. 3
 
+// Exercício 3
+
+let base = 5;
+let symbol = '*';
+let row = '';
+let position = base;
+
+for (let indexLine = 0; indexLine <= base; indexLine += 1) {
+  for (index = 0; index <= base; index += 1) {
+    if (index < position) {
+      row += ' ';
+    } else {
+      row += symbol;
+    }
+  }
+  console.log(row);
+  row = '';
+  position -= 1;
+};
