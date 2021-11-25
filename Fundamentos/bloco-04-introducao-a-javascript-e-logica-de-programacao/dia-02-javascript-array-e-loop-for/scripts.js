@@ -1,94 +1,99 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-// Ex. 1
-console.log('Exercício 1', '\n');
-
-for (let index = 0; index < numbers.length; index +=1) {
-  console.log(numbers[index],);
-} console.log('\n');
-
-// Ex. 2
-console.log('Exercício 2', '\n');
-
-let resultado = 0
+// Exercício 1
 
 for (let index = 0; index < numbers.length; index += 1) {
-  resultado += numbers[index];
-} 
+  console.log(numbers[index]);
+};
 
-console.log(resultado, '\n');
 
-// Ex. 3
-console.log('Exercício 3', '\n');
+// Exercício 2
 
-let media = (resultado/numbers.length)
-console.log(media, '\n')
-
-// Ex. 4
-console.log('Exercício 4', '\n');
-
-if (media > 20) {
-  console.log('valor maior que 20');
-}
-else {
-  console.log('valor menor ou igual a 20');
-} console.log('\n')
-
-// Ex. 5
-console.log('Exercício 5', '\n');
-
-let maiorValor = numbers[0];
+let sum = 0;
 
 for (let index = 0; index < numbers.length; index += 1) {
-  if (numbers[index] > maiorValor) {
-    maiorValor = numbers[index];
+  sum += numbers[index];
+};
+
+console.log(sum);
+
+
+// Exercício 3
+
+
+let average = (sum / numbers.length)
+console.log(average);
+
+
+// Exercício 4
+
+if (average > 20) {
+  console.log("valor maior que 20");
+} else {
+  console.log("valor menor ou igual a 20");
+};
+
+
+// Exercício 5
+
+let higherNumber = numbers[0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+  if (numbers[index] > higherNumber) {
+    higherNumber = numbers[index];
   }
-}
-console.log(maiorValor, '\n');
+};
 
-// Ex. 6
-console.log('Exercício 6', '\n');
+console.log(higherNumber);
 
-let valorImpar = 0;
+
+// Exercício 6
+
+let numbersOdd = [];
 
 for (let index = 0; index < numbers.length; index += 1) {
   if (numbers[index] % 2 !== 0) {
-    valorImpar += 1;
+    numbersOdd.push(numbers[index]);
   }
+};
+
+if (numbersOdd.length !== 0) {
+  console.log('Existe(m) ' + numbersOdd.length + ' número(s) ímpares');
+} else {
+  console.log('Nenhum valor ímpar encontrado');
 }
 
-if (valorImpar !== 0) {
-  console.log(valorImpar + " números ímpares");
-}
-else {
-  console.log('nenhum valor ímpar encontrado');
-} console.log('\n');
 
-// Ex. 7
-console.log('Exercício 7', '\n');
+// Exercício 7
 
-let menorValor = numbers[0];
+let smallerNumber = numbers[0];
 
-for (let index = 0; index < numbers.length; index += 1) {
-  if (numbers[index] < menorValor) {
-    menorValor = numbers[index];
+for (index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] < smallerNumber) {
+    smallerNumber = numbers[index];
   }
-}
-console.log(menorValor, '\n');
+};
 
-// Ex. 8
-console.log('Exercício 8', '\n');
+console.log(smallerNumber);
 
-let array1a25 = [];
 
-for (let index = 1; index <= 25; index += 1) {
-  array1a25.push(index);
-}
-console.log(array1a25, '\n');
+// Exercício 8
 
-// Ex. 9
-console.log('Exercício 9', '\n');
+let numbers1a25 = [];
 
-for (let index = 0; index < array1a25.length; index += 1) {
-  console.log(array1a25[index] / 2);
-}
+for (index = 1; index <= 25; index += 1) {
+  numbers1a25.push(index)
+};
+
+console.log(numbers1a25);
+
+
+// Exercício 9
+
+let numbers1a25div2 = [];
+
+for (index = 0; index < numbers1a25.length; index += 1) {
+  numbers1a25div2.push(numbers1a25[index] /2);
+};
+
+console.log(numbers1a25div2);
