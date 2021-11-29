@@ -44,3 +44,8 @@ for (let indexLine = 0; indexLine <= base; indexLine += 1) {
   row = '';
   position -= 1;
 };
+
+
+// Exercício 4
+
+
