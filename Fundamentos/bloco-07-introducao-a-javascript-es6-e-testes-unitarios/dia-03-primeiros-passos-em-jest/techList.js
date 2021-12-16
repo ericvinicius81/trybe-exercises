@@ -15,4 +15,6 @@ const techList = (list, name) => {
  
 };
 
+console.log(techList(['HTML', 'CSS', 'JavaScript', 'React'], 'Eric'));
+
 module.exports = techList;
