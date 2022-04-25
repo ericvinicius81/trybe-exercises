@@ -18,5 +18,14 @@ app.post('/hello', function (req, res) {
   res.status(201).json({ message: `Hello, ${name}!` });
 });
 
+app.post('/gretting', function (req, res) {
+  const { name, age } = req.body;
+  const minAge = 17;
+  if (age <= minAge) {
+    res.status(401).json({ message: 'Unauthorized' });
+  }
+  res.status(200).json({ message: `Hello, ${name}!` });
+})
+
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
