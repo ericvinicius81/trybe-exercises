@@ -9,16 +9,15 @@ app.use(express.json());
 const message = {message: 'pong'};
 
 app.get('/ping', (req, res) => {
-  res.json(message);
+  return res.json(message);
 });
 
-
-app.post('/hello', function (req, res) {
+app.post('/hello', (req, res) => {
   const { name } = req.body;
-  res.status(201).json({ message: `Hello, ${name}!` });
+  return res.status(201).json({ message: `Hello, ${name}!` });
 });
 
-app.post('/gretting', function (req, res) {
+app.post('/gretting', (req, res)=> {
   const { name, age } = req.body;
   const minAge = 17;
   if (age <= minAge) {
@@ -26,6 +25,5 @@ app.post('/gretting', function (req, res) {
   }
   res.status(200).json({ message: `Hello, ${name}!` });
 })
-
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
