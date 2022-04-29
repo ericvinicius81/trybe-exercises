@@ -2,8 +2,10 @@ const express = require('express');
 const app = express();
 const port = 3001;
 const fs = require('fs').promises;
+const authMiddleware = require('./authMiddleware');
 
 app.use(express.json());
+app.use(authMiddleware);
 
 // Exercício 1
 
