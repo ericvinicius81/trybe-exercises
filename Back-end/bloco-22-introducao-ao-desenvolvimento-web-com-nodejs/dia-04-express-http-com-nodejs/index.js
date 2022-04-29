@@ -2,8 +2,17 @@ const express = require('express');
 const app = express();
 const port = 3001;
 const fs = require('fs').promises;
+const authMiddleware = require('./authMiddleware');
+const crypto = require('crypto');
+
+module.exports = generateToken;
 
 app.use(express.json());
+app.use(authMiddleware);
+
+function generateToken() {
+  return crypto.randomBytes(8).toString('hex');
+}
 
 // Exercício 1
 
@@ -76,6 +85,18 @@ app.post('/simpsons', async (req, res) => {
   data.push({ id, name });
   await fs.writeFile('./simpsons.json', JSON.stringify(data));
   return res.status(204).end();
+});
+
+// Exercício Bônus 2
+
+app.post('/signup', (req, res) => {
+  const { email, password, firstName, phone } = req.body;
+
+  if ([email, password, firstName, phone].includes(undefined)) {
+    return res.status(401).json({ message: 'missing fields' });
+  }
+  const token = generateToken();
+  return res.status(200).json({ token });
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
