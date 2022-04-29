@@ -1,3 +1,5 @@
+// Exercício Bônus 1
+
 module.exports = (req, res, next) => {
   try {
     const { authorization } = req.headers;
