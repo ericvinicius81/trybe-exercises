@@ -58,3 +58,12 @@ enum Months {
 };
 
 
+// Exercício 3: Crie uma enum que represente as estações climáticas do ano.
+
+enum Seasons {
+  Primavera,
+  Verão,
+  Outono,
+  Inverno,
+};
+
