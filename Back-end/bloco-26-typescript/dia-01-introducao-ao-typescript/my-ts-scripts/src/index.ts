@@ -38,3 +38,23 @@ createdAt: ${createdAt}`);
 }
 
 characters.forEach(printCharacter);
+
+
+// Exercício 2: Crie uma enum que represente os meses do ano.
+
+enum Months {
+  Jeneiro = 1,
+  Fevereiro,
+  Março,
+  Abril,
+  Maio,
+  Junho,
+  Julho,
+  Agosto,
+  Setembro,
+  Outubro,
+  Novembro,
+  Dezembro,
+};
+
+
