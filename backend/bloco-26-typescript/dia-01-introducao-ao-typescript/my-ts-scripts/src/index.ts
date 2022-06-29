@@ -57,13 +57,18 @@ enum Months {
   Dezembro,
 };
 
+const data = `14/${Months.Maio}/1979`;
+console.log(data);
+
 
 // Exercício 3: Crie uma enum que represente as estações climáticas do ano.
 
 enum Seasons {
-  Primavera,
-  Verão,
-  Outono,
-  Inverno,
+  Primavera = '🌻',
+  Verão = '🌞',
+  Outono = '🍂',
+  Inverno = '🥶',
 };
 
+const inverno = Seasons.Inverno;
+console.log(`Estamos no inverno ${inverno}`);

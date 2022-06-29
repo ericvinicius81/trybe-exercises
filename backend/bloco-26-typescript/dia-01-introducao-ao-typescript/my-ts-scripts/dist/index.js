@@ -45,27 +45,16 @@ var Months;
     Months[Months["Dezembro"] = 12] = "Dezembro";
 })(Months || (Months = {}));
 ;
-console.log(`Eu nasci em 14/${Months.Maio}/1979`);
+const data = `14/${Months.Maio}/1979`;
+console.log(data);
 // Exercício 3: Crie uma enum que represente as estações climáticas do ano.
-// Exercício 4: Utilizando as enums criadas nos exercícios anteriores e o pacote readline-sync, que cria uma interface para ler o que for inserido no console (mais informações, veja a documentação), crie um programa que quando a pessoa usuária escolher o mês do ano e o hemisfério no terminal:
-// Retorne em que estação aquele mês se encontra.
-// Caso seja um mês que possua duas estações retorne ambas.
-// Para referência:
-// Estações do ano no Hemisfério Norte
-// Copiar
-//     | Estação   | Início         | Término        |
-//     | --------- | -------------- | -------------- |
-//     | Outono    | 23 de setembro | 21 de dezembro |
-//     | Inverno   | 21 de dezembro | 20 de março    |
-//     | Primavera | 20 de março    | 21 de junho    |
-//     | Verão     | 21 de junho    | 23 de setembro |
-// Estações do ano no Hemisfério Sul
-// Copiar
-//     | Estação   | Início         | Término        |
-//     | --------- | -------------- | -------------- |
-//     | Outono    | 20 de março    | 21 de junho    |
-//     | Inverno   | 21 de junho    | 22 de setembro |
-//     | Primavera | 22 de setembro | 21 de dezembro |
-//     | Verão     | 21 de dezembro | 20 de março    |
-// Fonte: https://brasilescola.uol.com.br/geografia/estacoes-ano.htm
-// Agora vamos criar um pacote Node para converter unidades de medidas no Sistema Internacional:
+var Seasons;
+(function (Seasons) {
+    Seasons["Primavera"] = "\uD83C\uDF3B";
+    Seasons["Ver\u00E3o"] = "\uD83C\uDF1E";
+    Seasons["Outono"] = "\uD83C\uDF42";
+    Seasons["Inverno"] = "\uD83E\uDD76";
+})(Seasons || (Seasons = {}));
+;
+const inverno = Seasons.Inverno;
+console.log(`Estamos no inverno ${inverno}`);
