@@ -1,9 +1,8 @@
-const Book = require('../services/bookService');
+const bookService = require('../services/bookService');
 
-const getAll = async () => {
-  const books = await Book.getAll();
-
-  return books;
+const getAll = async (req, res) => {
+  const books = await bookService.getAll();
+  res.status(200).json(books);
 };
 
 module.exports = {
