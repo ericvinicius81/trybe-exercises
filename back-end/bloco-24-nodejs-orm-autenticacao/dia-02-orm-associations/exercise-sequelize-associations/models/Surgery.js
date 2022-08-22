@@ -1,6 +1,6 @@
 const Surgery = (sequelize, DataTypes) => {
   const Surgery = sequelize.define('Surgery', {
-    surgery_id: {
+    surgery_id: { 
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
@@ -14,7 +14,7 @@ const Surgery = (sequelize, DataTypes) => {
   },
   {
     timestamps: false,
-    tablename: 'Surgeries',
+    tableName: 'Surgeries',
     underscored: true,
   });
 
