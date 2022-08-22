@@ -1,25 +1,25 @@
 const Plan = (sequelize, DataTypes) => {
   const Plan = sequelize.define('Plan', {
-    plan_id: {
-      type: DataTypes.INTEGER,
+    plan_id: { 
+      type: DataTypes.INTEGER, 
       primaryKey: true,
       autoIncrement: true,
     },
-    coverage: {
+    coverage: { 
       type: DataTypes.STRING,
     },
-    price: {
+    price: { 
       type: DataTypes.DOUBLE,
     },
   },
   {
     timestamps: false,
-    tablename: 'Plans',
+    tableName: 'Plans',
     underscored: true,
   });
 
   Plan.associate = (models) => {
-    Plan.hasMany(models.Patient, { foreignKey: 'plan.id', as: 'patient' })
+    Plan.hasMany(models.Patient, { foreignKey: 'plan_id', as: 'patient' });
   };
 
   return Plan;
