@@ -15,12 +15,12 @@ const Patient = (sequelize, DataTypes) => {
   },
   {
     timestamps: false,
-    tablename: 'Patients',
+    tableName: 'Patients',
     underscored: true,
   });
 
   Patient.associate = (models) => {
-    Patient.belongsTo(models.Plan, { foreignKey: 'plan.id', as: 'plans' });
+    Patient.belongsTo(models.Plan, { foreignKey: 'plan_id', as: 'plan' });
   };
 
   return Patient;
