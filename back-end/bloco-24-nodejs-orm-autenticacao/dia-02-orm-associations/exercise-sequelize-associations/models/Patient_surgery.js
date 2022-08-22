@@ -1,17 +1,18 @@
 const PatientSurgery = (sequelize, DataTypes) => {
-  const PatientSurgery = sequelize.define('PatientSurgery', 
-  {},
-  {
-    timestamps: false,
-    tablename: 'PatientsSurgeries',
-    underscored: true,
-  });
+  const PatientSurgery = sequelize.define('Patient_surgery',
+    {},
+    { 
+      timestamps: false,
+      tableName: 'Patienty_surgeries',
+      underscored: true,
+    },
+  );
 
   PatientSurgery.associate = (models) => {
     models.Surgery.belongsToMany(models.Patient, {
       as: 'patients',
       through: PatientSurgery,
-      foreignKey: 'sugery_id',
+      foreignKey: 'surgery_id',
       otherKey: 'patient_id',
     });
     models.Patient.belongsToMany(models.Surgery, {
