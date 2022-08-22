@@ -25,3 +25,5 @@ const Patient = (sequelize, DataTypes) => {
 
   return Patient;
 };
+
+module.exports = Patient;

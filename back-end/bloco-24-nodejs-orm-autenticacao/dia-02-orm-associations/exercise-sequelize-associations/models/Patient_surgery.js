@@ -10,7 +10,7 @@ const PatientSurgery = (sequelize, DataTypes) => {
   PatientSurgery.associate = (models) => {
     models.Surgery.belongsToMany(models.Patient, {
       as: 'patients',
-      trough: PatientSurgery,
+      through: PatientSurgery,
       foreignKey: 'sugery_id',
       otherKey: 'patient_id',
     });
@@ -22,5 +22,7 @@ const PatientSurgery = (sequelize, DataTypes) => {
     });
   };
 
-  return Patient;
+  return PatientSurgery;
 };
+
+module.exports = PatientSurgery;

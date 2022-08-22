@@ -20,3 +20,5 @@ const Surgery = (sequelize, DataTypes) => {
 
   return Surgery;
 };
+
+module.exports = Surgery;
